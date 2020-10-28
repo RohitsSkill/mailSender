@@ -20,10 +20,11 @@ download credentials.json file which will shown by google to you after submiting
 3.
 Now go to terminal and create folder for project and move into it 
 now run following commands
-*******************
+*********************
 npm init
+*********************
 npm install express
-*******************
+*********************
 
 4.
 Copy that credentials.json file into this folder
