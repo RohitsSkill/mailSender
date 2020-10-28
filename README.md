@@ -28,7 +28,7 @@ npm install express
 
 4.
 Copy index.js file from my repository into your folder and
-copy that credentials.json file into this folder
+copy that credentials.json file into your folder
 and run final command on terminal
 ****************
 node .
