@@ -29,7 +29,9 @@ npm install express
 4.
 Copy that credentials.json file into this folder
 and run final command on terminal
+****************
 node .
+****************
 go to localhost:3000/{email_receiver}/{subject_of_email}/{message_of_subject}
 
 Now see your mail box.........
