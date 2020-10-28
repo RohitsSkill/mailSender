@@ -32,6 +32,6 @@ and run final command on terminal
 ****************
 node .
 ****************
-go to localhost:3000/{email_receiver}/{subject_of_email}/{message_of_subject}
+go to localhost:3000/{email_receiver}/{subject_of_email}/{message}
 
 Now see your mail box.........
