@@ -160,8 +160,8 @@ function makeRaw(to,subject,message){
       "Content-Transfer-Encode:7bit\r\n",                         //standard format
       //"From: ",from,"\n",       This is not required it will automatically access authenticated user mail for this field.
       "To: ",to,"\n",             //receiver address
-      "Subject: ",subject,"\n",   //subject of mail
-      "message: ",message,        //message
+      "Subject: ",subject,"\n\n",   //subject of mail
+      message,        //user's is message
   ].join('');
 encodeMsg = Base64.encodeURI(str);    //encode using standard library base64
 return encodeMsg                       //return encoded message
