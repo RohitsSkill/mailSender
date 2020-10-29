@@ -161,7 +161,7 @@ function makeRaw(to,subject,message){
       //"From: ",from,"\n",       This is not required it will automatically access authenticated user mail for this field.
       "To: ",to,"\n",             //receiver address
       "Subject: ",subject,"\n\n",   //subject of mail
-      message,        //user's is message
+      message,        //user's message
   ].join('');
 encodeMsg = Base64.encodeURI(str);    //encode using standard library base64
 return encodeMsg                       //return encoded message
